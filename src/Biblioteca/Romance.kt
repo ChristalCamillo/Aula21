@@ -1,4 +1,6 @@
-class FiccaoCientifica: Livro() {
+package Biblioteca
+
+class Romance: Livro() {
     override fun registrarLivro(isbn: Long) {
         super.registrarLivro(isbn)
     }
