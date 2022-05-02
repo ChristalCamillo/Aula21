@@ -34,14 +34,12 @@ fun main() {
                 Romance().registrarLivro(isbn, nomeLivro, opcao)
             }
         }
-
-        val pippiMeialonga = Infantil()
-        pippiMeialonga.registrarLivro(9788310080899, "Pippi Meialonga", "Infantil", "Astrid Lidgren" )
-
-
     }
     else{
         println("Opção inválida")
     }
+
+    val pippiMeialonga = Infantil()
+    pippiMeialonga.registrarLivro(9788310080899, "Pippi Meialonga", "Infantil", "Astrid Lidgren" )
 
 }
